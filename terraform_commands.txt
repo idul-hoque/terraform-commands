@@ -1,3 +1,5 @@
 config file to be present with .tf extension
 terraform init - to initialise terraform to download all required plugins from providers
 terraform plan -to see the plan of terraform how it will create or  modify resources
+terraform apply - to actually apply those changes planned
+terraform destroy - to destroy all resources created and managed by terraform
